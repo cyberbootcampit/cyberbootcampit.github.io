@@ -3,12 +3,34 @@
 
 .container-fluid { padding: 0 !important; }
 .container-fluid > .row .section-title { padding-top: 30px; }
-.container-fluid > .row div:last-child { padding: 40px 8px; }
+.container-fluid > .row:first-child { padding: 30px 4px; }
+.container-fluid > .row:not(:first-child) div:last-child { padding: 40px 8px; }
 .row { margin: 0 !important; }
-#footer-copyright { padding: 40px 0 20px 0; }
+.row.background { border: 1px solid black; }
+#subscribe {
+    display: inline-block;
+    height: 60px;
+}
+#subscribe button {
+    background-color: rgba(52, 58, 64, 0.85);
+    padding: 7px 20px;
+    box-shadow: 18px 2px 14px 2px rgba(0,0,0,.19);
+    border-color: black;
+    border-radius: 28px;
+    font-family: 'Orbitron';
+    font-size: 28px;
+    transition: 1000ms ease;
+}
+#subscribe:hover button {
+    background-color: rgba(35, 49, 43, 0.85);
+    font-size: 31px;
+}
+footer a:hover { text-decoration: none; }
 footer img { max-width: 128px; }
+footer #copyright { padding: 38px 0; }
 
 @media (max-width: 991.98px) { /* < lg */
+    .background.hackasat { background-position-x: 70%; }
     .title { font-size: 64px !important; }
 }
 @media (min-width: 992px) { /* >= lg */
@@ -42,11 +64,6 @@ footer img { max-width: 128px; }
     filter:blur(0.1)
 }
 
-.background {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .bg-light {
     background-image: url("../images/background.png");
     background-color: #00842cd5;
@@ -54,75 +71,24 @@ footer img { max-width: 128px; }
     background-size: cover;
     background-repeat: no-repeat;
 }
-.backgroundTRX {
-    background-image: url('../images/trx.jpg');
+.background {
     background-size: cover;
     background-position: center;
-    min-height: 600px;
+    background-repeat: no-repeat;
+    min-height: 550px;
     transition: 1000ms ease;
 }
-.background-lezioni {
-    background-image: url('../images/lezioni.png');
-    background-size: cover;
-    background-position: center;
-    min-height: 600px;
-    transition: 1000ms ease;
-}
-.background-target {
-    background-image: url('../images/target.jpeg');
-    background-size: cover;
-    background-position: center;
-    min-height: 600px;
-    transition: 1000ms ease;
-}
-.background-hackasat {
-    background-image: url('../images/hackasat.png');
-    background-size: cover;
-    background-position: center;
-    min-height: 600px;
-    transition: 1000ms ease;
-}
+.background.TRX { background-image: url('../images/trx.jpg'); }
+.background.lezioni { background-image: url('../images/lezioni.png'); }
+.background.target { background-image: url('../images/target.jpg'); }
+.background.iscrizione {}
+.background.premio {}
+.background.hackasat { background-image: url('../images/hackasat.png'); }
 
-.containter-fluid {
-    background-color: rgb(0, 34, 26);
-}
-.spacer-horizontal {
-    height: 100px;
-}
-.spacer-vertical {
-    height: 50px;
-}
+.containter-fluid { background-color: rgb(0, 34, 26); }
+.spacer-horizontal { height: 100px; }
+.spacer-vertical { height: 50px; }
 
-.button {
-    font-weight: 700;
-    font-family: 'Delicious';
-    padding: 10px 25px;
-    background-color: #006d57;
-    border-radius: 23px;
-    box-shadow: 18px 2px 14px 2px rgba(0,0,0,.19);
-    text-align: center;
-    font-size: 16px;
-    line-height: 20px;
-    transition: 1000ms ease;
-}
-.button:hover {
-    color:#f5efdd;
-    background-color:#004537;
-}
-.buttontext {
-    font-size: 16px;
-    line-height: 20px;
-    padding: 13px 30px;
-    text-decoration: none;
-    text-shadow: 0px 0px 0px rgba(0,0,0,0.75);
-    color: #ffffff;
-    text-decoration: none;
-    transition: 100ms ease;
-}
-.buttontext:hover {
-    color:#f5efdd;
-    font-size: 110%;
-}
 .infobox {
     color: rgb(255, 255, 255);
     font-size: 35px;
@@ -132,7 +98,7 @@ footer img { max-width: 128px; }
     text-shadow: -1px -1px 0 #000000a4, 1px -1px 0 #000000a4, -1px 1px 0 #000000a4, 1px 1px 0 #000000a4;
 }
 .title {
-    font-size: 80px;
+    font-size: 68px;
     color: rgb(255, 255, 255);
     font-weight: 700;
     font-family: 'Orbitron';
