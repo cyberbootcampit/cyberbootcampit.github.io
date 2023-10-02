@@ -4,8 +4,6 @@
 html { scroll-behavior: smooth; }
 
 .container-fluid { padding: 0 !important; }
-.container-fluid > .row .section-title { padding-top: 30px; }
-.container-fluid > .row:first-child { padding: 30px 4px; }
 .container-fluid > .row:not(:first-child) div:last-child { padding: 40px 8px; }
 .row { margin: 0 !important; }
 .row.background { border: 1px solid black; }
@@ -33,7 +31,9 @@ footer #copyright { padding: 38px 0; }
 
 @media (max-width: 991.98px) { /* < lg */
     .background.hackasat { background-position-x: 70%; }
-    .title { font-size: 64px !important; }
+    .title { font-size: 60px !important; }
+    .container-fluid > .row .section-title { padding-top: 30px; }
+    .container-fluid > .row:first-child { padding: 30px 4px; }
 }
 @media (min-width: 992px) { /* >= lg */
     .section-title.text-lg-left { order: 1; }
@@ -68,7 +68,6 @@ footer #copyright { padding: 38px 0; }
 
 .bg-light {
     background-image: url("../images/background.png");
-    background-color: #00842cd5;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,8 +82,8 @@ footer #copyright { padding: 38px 0; }
 .background.TRX { background-image: url('../images/trx.jpg'); }
 .background.lezioni { background-image: url('../images/lezioni.png'); }
 .background.target { background-image: url('../images/target.jpg'); }
-.background.iscrizione {}
-.background.premio {}
+.background.iscrizione { background-image: url('../images/iscrizione.jpg'); }
+.background.premio { background-image: url('../images/premio.jpg'); }
 .background.hackasat { background-image: url('../images/hackasat.png'); }
 
 .containter-fluid { background-color: rgb(0, 34, 26); }
