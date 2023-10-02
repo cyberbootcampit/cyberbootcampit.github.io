@@ -1,6 +1,8 @@
 @font-face { font-family: Delicious; src: url('../fonts/Exo/Exo2-VariableFont_wght.ttf'); }
 @font-face { font-family: Orbitron; src: url('../fonts/Orbitron/orbitron.ttf'); }
 
+html { scroll-behavior: smooth; }
+
 .container-fluid { padding: 0 !important; }
 .container-fluid > .row .section-title { padding-top: 30px; }
 .container-fluid > .row:first-child { padding: 30px 4px; }
