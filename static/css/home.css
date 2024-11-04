@@ -22,12 +22,12 @@ html { scroll-behavior: smooth; }
     border-color: black;
     border-radius: 28px;
     font-family: 'Orbitron';
-    font-size: 28px;
+    font-size: 23px;
     transition: 1000ms ease;
 }
 #subscribe:hover button {
     background-color: rgba(35, 49, 43, 0.85);
-    font-size: 31px;
+    font-size: 25px;
 }
 footer a:hover { text-decoration: none; }
 footer img { max-width: 128px; }
@@ -44,7 +44,7 @@ footer #copyright { padding: 38px 0; }
 
 
 .navbar {
-    font-size: 16px;
+    font-size: 13px;
     font-family: 'Delicious';
     font-weight: 700;
     transition: 1000ms ease;
@@ -56,7 +56,7 @@ footer #copyright { padding: 38px 0; }
 }
 .nav-link:hover {
     color: white;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .logo:hover { rotate: 360deg; }
@@ -94,14 +94,14 @@ footer #copyright { padding: 38px 0; }
 
 .infobox {
     color: rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 29px;
     font-family: 'Orbitron';
     font-weight: 700;
     transition: 100ms ease;
     text-shadow: -1px -1px 0 #000000a4, 1px -1px 0 #000000a4, -1px 1px 0 #000000a4, 1px 1px 0 #000000a4;
 }
 .title {
-    font-size: 64px;
+    font-size: 53px;
     color: rgb(255, 255, 255);
     font-weight: 700;
     font-family: 'Orbitron';
@@ -113,7 +113,7 @@ footer #copyright { padding: 38px 0; }
 }
 .section {
     font-family: 'Delicious';
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     color: white;
     margin-top: auto;
@@ -128,7 +128,7 @@ footer #copyright { padding: 38px 0; }
     margin-left: auto;
     margin-right: auto;
     font-family: 'Orbitron';
-    font-size: 44px;
+    font-size: 36px;
     color: white;
     text-shadow: -1px -1px 0 #000000a4, 1px -1px 0 #000000a4, -1px 1px 0 #000000a4, 1px 1px 0 #000000a4;
 }
