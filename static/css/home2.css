@@ -1,0 +1,48 @@
+@font-face { font-family: Delicious; src: url('../fonts/Exo/Exo2-VariableFont_wght.ttf'); }
+@font-face { font-family: Orbitron; src: url('../fonts/Orbitron/orbitron.ttf'); }
+
+.titolo {
+    font-size: 53px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: 'Orbitron';
+    transition: 1000ms ease;
+    text-shadow: -1px -1px 0 #000000a4, 1px -1px 0 #000000a4, -1px 1px 0 #000000a4, 1px 1px 0 #000000a4;
+}
+.sottotitolo {
+    color: rgb(255, 255, 255);
+    font-size: 29px;
+    font-family: 'Orbitron';
+    font-weight: 700;
+    transition: 100ms ease;
+    text-shadow: -1px -1px 0 #000000a4, 1px -1px 0 #000000a4, -1px 1px 0 #000000a4, 1px 1px 0 #000000a4;
+}
+.titolo-informazioni {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Orbitron';
+    font-size: 36px;
+    color: white;
+    text-shadow: -1px -1px 0 #000000a4, 1px -1px 0 #000000a4, -1px 1px 0 #000000a4, 1px 1px 0 #000000a4;
+}
+.informazioni {
+    font-family: 'Delicious';
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: -1px -1px 0 #000000a4, 1px -1px 0 #000000a4, -1px 1px 0 #000000a4, 1px 1px 0 #000000a4;
+}
+
+#bootcamp { background-image: url("../images/background.png"); }
+#istruttori { background-image: url('../images/trx.jpg'); }
+#lezioni { background-image: url('../images/lezioni.png'); }
+#target { background-image: url('../images/target.jpg'); }
+#iscrizione { background-image: url('../images/iscrizione.jpg'); }
+#premio { background-image: url('../images/premio.jpg'); }
+#trx { background-image: url('../images/hackasat.png'); }
